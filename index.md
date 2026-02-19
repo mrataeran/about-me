@@ -1,7 +1,5 @@
 [Home](index.html) | [Blog](blog/index.html)
 
-# About Me
-
 ## Introduction
 Hi, I’m **Ata Eran**. I’m a **Computer Science** student at **Brigham Young University (BYU)** in my **third year**. I’m interested in **data science, finance, machine learning, and financial engineering**, and I enjoy building practical projects that turn messy real-world information into clear, decision-ready insights.
 
