@@ -1,4 +1,4 @@
-[Home](index.html) | [Blog](blog/index.html)
+[Home](index.html) | [Blog](blog/index.html) | [Pandas Groupby Recipe](blog/pandas-groupby-recipe.html) | [Macroeconomic Data Project](blog/macroeconomic-data-project.html)
 
 ## Introduction
 Hi, I’m **Ata Eran**. I’m a **Computer Science** student at **Brigham Young University (BYU)** in my **third year**. I’m interested in **data science, finance, machine learning, and financial engineering**, and I enjoy building practical projects that turn messy real-world information into clear, decision-ready insights.
@@ -20,9 +20,9 @@ Even when I’m not in a formal internship role, I’m consistently building tec
   Building projects in Python that involve cleaning messy data, creating visualizations, and summarizing insights in a way that is useful for technical and non-technical audiences.
 
 ## Skills
-- **Programming:** Python, SQL  
-- **Data & Tools:** Git/GitHub, Excel, Jupyter, Pandas, NumPy, Matplotlib  
-- **Analytics:** Data cleaning, exploratory analysis, visualization, basic modeling  
+- **Programming:** Python, SQL, Git, Markdown
+- **Data Tools:** Pandas, NumPy, Matplotlib, Seaborn, Excel
+- **Technical Areas:** Data cleaning, exploratory data analysis, visualization, basic modeling
 - **Professional:** Clear writing, communication, teamwork, fast learning
 
 ## Featured Posts

@@ -1,4 +1,4 @@
-[Home](../index.html) | [Blog](index.html)
+[Home](../index.html) | [Blog](index.html) | [Pandas Groupby Recipe](pandas-groupby-recipe.html) | [Macroeconomic Data Project](macroeconomic-data-project.html)
 
 # Exploring a Millennium of Macroeconomic Data with Python
 
@@ -55,15 +55,19 @@ One thing I like about this project is that the starting workflow is simple. If 
 That is enough for someone else to reproduce the overall structure of the project without reading a full log of every debugging step.
 
 ## Final Dataset Overview
-For the part of the project I analyzed most closely, I created a cleaned subset containing the two variables of interest:
+The original dataset comes from the Bank of England’s **A Millennium of Macroeconomic Data** collection hosted on Kaggle. It contains many macroeconomic indicators across a long historical span, which makes it useful for exploratory analysis of broad economic relationships.
+
+For this project, I focused on a cleaned analysis subset containing the two variables most relevant to my question:
 
 - **Unemployment rate**
 - **Trade deficit**
 
-After converting the columns to numeric values and dropping invalid rows, the analysis subset had:
+After converting the selected columns to numeric values and dropping rows with missing or invalid values in either field, the final analysis subset used in this post had:
 
 - **88 rows**
 - **2 analyzed features**
+
+This means the blog post is based on a focused slice of the larger dataset rather than the full table of all available variables.
 
 ### Mini data dictionary
 - **Unemployment rate**: the unemployment level associated with each observation in the dataset
@@ -77,6 +81,13 @@ After converting the columns to numeric values and dropping invalid rows, the an
 | Trade deficit | 88 | -7427.98 | 14134.14 | -46189 | -378.50 | 7602 |
 
 Even from this summary, the trade deficit variable clearly has a very wide spread and several likely outliers.
+
+## Visualization
+Here is the scatterplot used in the analysis:
+
+![Scatterplot of unemployment rate vs trade deficit](../assets/unemployment-trade-deficit.png)
+
+The line of best fit slopes slightly downward, but the points are widely dispersed. That visual impression already suggests the relationship is probably weak.
 
 ## Cleaning and Transformations
 The most important cleaning step was converting the selected columns to numeric form. At first, plotting failed or produced unreadable charts because the values were being interpreted as text rather than numbers. Once the columns were converted correctly and missing values were removed, the scatterplot became usable.
@@ -127,12 +138,10 @@ If I extend this project, the first improvement would be to incorporate a **year
 ## Resources and Links
 Here are the main resources for the project:
 
-- [Kaggle dataset page](#)
-- [Project GitHub repository](#)
+- [Kaggle dataset page](https://www.kaggle.com/datasets/bank-of-england/a-millennium-of-macroeconomic-data/data)
+- [Project GitHub repository](https://github.com/mrataeran/uk-macro-analysis)
 - [Pandas documentation](https://pandas.pydata.org/)
 - [Seaborn documentation](https://seaborn.pydata.org/)
-
-Replace the placeholder links with your actual Kaggle dataset URL and GitHub repository link before publishing.
 
 ## Conclusion
 This project was a good example of why exploratory data analysis matters. I started with a reasonable economic question, cleaned a public dataset, visualized the variables, and then used correlation and regression to test whether the apparent relationship held up. In this case, it mostly did not, which is still a useful result.
