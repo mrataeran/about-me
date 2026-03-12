@@ -16,11 +16,18 @@ Even when I’m not in a formal internship role, I’m consistently building tec
 - **Finance-Focused Study and Modeling (Self-Directed)**  
   Practicing core portfolio and performance concepts (risk/return, compounding, time-weighted vs money-weighted returns) and applying them in spreadsheet and Python-based experiments.
 
+- **Data Analysis Projects**  
+  Building projects in Python that involve cleaning messy data, creating visualizations, and summarizing insights in a way that is useful for technical and non-technical audiences.
+
 ## Skills
 - **Programming:** Python, SQL  
 - **Data & Tools:** Git/GitHub, Excel, Jupyter, Pandas, NumPy, Matplotlib  
 - **Analytics:** Data cleaning, exploratory analysis, visualization, basic modeling  
 - **Professional:** Clear writing, communication, teamwork, fast learning
+
+## Featured Posts
+- [Pandas `groupby()` without confusion: a practical recipe](blog/pandas-groupby-recipe.html)
+- [Exploring a Millennium of Macroeconomic Data with Python](blog/macroeconomic-data-project.html)
 
 ## Get to Know Me
 Outside of school, I’m into **reading**, **playing the handpan**, and **sourdough baking**. I like projects that blend creativity with logic, and I’m always down to learn a new tool if it helps solve a real problem. Fun fact: I’ve traveled and lived in different places, and I genuinely enjoy adapting to new environments and meeting people from different backgrounds.

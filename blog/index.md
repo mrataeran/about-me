@@ -1,8 +1,12 @@
 [Home](../index.html) | [Blog](index.html)
 
-# Tutorial Blog Posts
+# Blog
+This page collects my course-related writing and project posts. My goal is to explain technical work clearly and make it easier for other students to build on similar ideas.
 
-- [Pandas `groupby()` without confusion: a practical recipe](pandas-groupby-recipe.html)
+## Posts
 
-## What you will find here
-These posts are written for a Stat 386-level audience: you already know basic Python, Git, and Markdown, but you want clear patterns you can reuse in real projects.
+### [Exploring a Millennium of Macroeconomic Data with Python](macroeconomic-data-project.html)
+A project post on using a large macroeconomic dataset from Kaggle to study the relationship between unemployment rate and trade deficit, including data cleaning, summary statistics, and interpretation.
+
+### [Pandas `groupby()` without confusion: a practical recipe](pandas-groupby-recipe.html)
+A tutorial-style post that explains how to use Pandas `groupby()` for summary tables, rates, transformations, and common debugging patterns.
